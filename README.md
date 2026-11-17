@@ -71,6 +71,7 @@ sensor:
       hours: 24
     sampling_size: 1500
 
+---
 
 Configuration Options
 
@@ -92,6 +93,8 @@ Display & Layout Options
 - columns (number, default: null): Fixed column count for the bottom sensor tiles (defaults to responsive auto-grid: 2 columns narrow, up to 4 wide).
 - moon_flip (boolean, default: false): Set to true to mirror the moon phase illumination for the Southern Hemisphere.
 
+---
+
 Entities (entities: block)
 All entities can be grouped under entities: (recommended) or defined at the root level. Missing entities are logged once as a warning in the browser console (F12).
 - weather (default: weather.salzgitter): Weather entity providing the current sky condition and icon (plus forecast if forecast is omitted).
@@ -107,6 +110,8 @@ All entities can be grouped under entities: (recommended) or defined at the root
 - abs_humidity (default: sensor.aussen_absolute_luftfeuchtigkeit): Outdoor absolute humidity (g/m³).
 - sun (default: sun.sun): Sun entity to switch between day and night sky animations.
 - moon (default: sensor.moon): Moon phase entity (falls back to internal astronomical calculation if omitted).
+
+---
 
 ## Example Dashboard Card Configuration
 type: custom:wettercard-modular-v3
