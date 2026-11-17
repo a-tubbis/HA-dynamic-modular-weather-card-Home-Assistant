@@ -2,6 +2,7 @@
 
 A compact, modular, and animated weather station card for Home Assistant. It combines a live HTML5 Canvas weather header (featuring dynamic rain, snow, hail, fog, lightning, sun rays, accurate moon phases, and temperature-reactive gradients) with a multi-day forecast row and custom SVG sensor gauges.
 
+<img width="585" height="485" alt="Screenshot 2026-11-17 195402" src="https://github.com/user-attachments/assets/654836cb-2ae6-46f8-9af5-196cdd708d1d" />
 
 ---
 
