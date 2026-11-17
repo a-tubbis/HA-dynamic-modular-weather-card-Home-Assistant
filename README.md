@@ -108,7 +108,7 @@ All entities can be grouped under entities: (recommended) or defined at the root
 - sun (default: sun.sun): Sun entity to switch between day and night sky animations.
 - moon (default: sensor.moon): Moon phase entity (falls back to internal astronomical calculation if omitted).
 
-### Example Dashboard Card Configuration ###
+## Example Dashboard Card Configuration
 type: custom:wettercard-modular-v3
 show_forecast: true
 forecast_days: 5
